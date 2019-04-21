@@ -9,7 +9,9 @@ public class PersonServiceImpl implements PersonService{
 
 	@Override
 	public String testService(){
-		return "testService";
+		
+		System.out.println("testService 被调用了..");
+		return "testService: haha";
 	}
 
 }
